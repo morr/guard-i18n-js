@@ -3,7 +3,7 @@ require 'guard/guard'
 require 'i18n-js'
 
 module Guard
-  class I18nJS < Guard
+  class I18nJS < Plugin
     autoload :Notifier, 'guard/i18n-js/notifier'
 
     def start
