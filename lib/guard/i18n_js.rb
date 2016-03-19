@@ -1,4 +1,5 @@
-require "guard/compat/plugin"
+require "guard"
+require "guard/plugin"
 require 'i18n-js'
 
 module Guard
