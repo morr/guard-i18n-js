@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.rubyforge_project         = 'guard-i18n-js'
 
   gem.add_dependency 'guard',   '~> 2.1'
-  gem.add_dependency 'i18n-js', '~> 3.0.0.rc3'
+  gem.add_dependency 'i18n-js', '~> 3.7'
 
   gem.add_development_dependency 'rspec',       '~> 2.6'
   gem.add_development_dependency 'guard-rspec', '~> 1.0'
