@@ -15,11 +15,11 @@ Gem::Specification.new do |gem|
   gem.required_rubygems_version = '>= 1.3.6'
   gem.rubyforge_project         = 'guard-i18n-js'
 
-  gem.add_dependency 'guard',   '~> 2.1'
-  gem.add_dependency 'i18n-js', '~> 3.7'
+  gem.add_dependency 'guard',   '>= 2.1'
+  gem.add_dependency 'i18n-js', '>= 3.3'
 
-  gem.add_development_dependency 'rspec',       '~> 2.6'
-  gem.add_development_dependency 'guard-rspec', '~> 1.0'
+  gem.add_development_dependency 'rspec',       '>= 2.6'
+  gem.add_development_dependency 'guard-rspec', '>= 1.0'
 
   gem.files         = Dir.glob('{lib}/**/*') + %w[LICENSE README.md]
   gem.require_paths = ["lib"]
